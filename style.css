@@ -47,6 +47,10 @@ header nav ul li {
     color: goldenrod;
 }
 
+.h3-title{
+    color: goldenrod;
+}
+
 /* style for about me page */
 .aboutmeheader .h1title{
     background-color: goldenrod;
@@ -63,6 +67,37 @@ p strong {
 }
 
 a button{
+    background-color: goldenrod;
+    color: whitesmoke;
+}
+
+/* style fotr submit order page */
+#order-header h1{
+    background-color: goldenrod;
+    color: whitesmoke;
+}
+
+.forms form .send-button{
+    background-color: goldenrod;
+    color: whitesmoke;
+}
+
+.h2-title{
+    color: goldenrod;
+}
+
+/* style for login page */
+
+.login-header h1{
+    background-color: goldenrod;
+    color: whitesmoke;
+}
+
+.h2-login{
+    color: goldenrod;
+}
+
+.login-form button{
     background-color: goldenrod;
     color: whitesmoke;
 }
