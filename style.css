@@ -18,6 +18,7 @@ p {
 }
 
 
+/* style for home page */
 header nav {
     font-weight: bold;
 }
@@ -35,5 +36,33 @@ header nav {
 }
 
 #header .headertexttitle{
+    color: whitesmoke;
+}
+
+header nav ul li {
+    color: goldenrod;
+}
+
+.content .olcontent li{
+    color: goldenrod;
+}
+
+/* style for about me page */
+.aboutmeheader .h1title{
+    background-color: goldenrod;
+    color: whitesmoke;
+}
+
+p strong {
+    color: goldenrod;
+}
+
+.aboutmetitle{
+    color: goldenrod;
+    font-weight: bold;
+}
+
+a button{
+    background-color: goldenrod;
     color: whitesmoke;
 }
