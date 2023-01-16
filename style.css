@@ -17,3 +17,23 @@ p {
 
 }
 
+
+header nav {
+    font-weight: bold;
+}
+
+#footer .footerdescription .strongboldnumber{
+    color: goldenrod;
+}
+
+#footer .footerdescription .strongboldemail{
+    color: goldenrod;
+}
+
+#header #headertext{
+    background-color: goldenrod;
+}
+
+#header .headertexttitle{
+    color: whitesmoke;
+}
