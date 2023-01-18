@@ -21,17 +21,21 @@ p {
 /* style for home page */
 header nav {
     font-weight: bold;
+    border-style: solid;
+    border-width: 3px;
+    border-color: rgb(67, 67, 67);
+    margin-bottom: 20px;
 }
 
-#footer .footerdescription .strongboldnumber{
+#footer .footerdescription .strongboldnumber {
     color: goldenrod;
 }
 
-#footer .footerdescription .strongboldemail{
+#footer .footerdescription .strongboldemail {
     color: goldenrod;
 }
 
-#header #headertext{
+#header #headertext {
     background-color: goldenrod;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -39,7 +43,7 @@ header nav {
     padding-left: 10px;
 }
 
-#header .headertexttitle{
+#header .headertexttitle {
     color: whitesmoke;
 }
 
@@ -47,16 +51,29 @@ header nav ul li {
     color: goldenrod;
 }
 
-.content .olcontent li{
+.home-page-content .olcontent li {
     color: goldenrod;
 }
 
-.h3-title{
+.h3-title {
     color: goldenrod;
+}
+
+#footer {
+    border-style: solid;
+    border-width: 3px;
+    border-color: rgb(67, 67, 67);
+}
+
+.home-page-content {
+    border-style: solid;
+    border-width: 3px;
+    border-color: goldenrod;
+    margin-bottom: 20px;
 }
 
 /* style for about me page */
-.aboutmeheader .h1title{
+.aboutmeheader .h1title {
     background-color: goldenrod;
     color: whitesmoke;
     padding-top: 10px;
@@ -69,18 +86,31 @@ p strong {
     color: goldenrod;
 }
 
-.aboutmetitle{
+.aboutmetitle {
     color: goldenrod;
     font-weight: bold;
 }
 
-a button{
+a button {
     background-color: goldenrod;
     color: whitesmoke;
 }
 
+.about-me-content-part {
+    border-style: solid;
+    border-width: 3px;
+    border-color: goldenrod;
+}
+
+.about-me-go-back-button {
+    border-style: solid;
+    border-width: 3px;
+    border-color: goldenrod;
+    margin-bottom: 10px;
+}
+
 /* style fotr submit order page */
-#order-header h1{
+#order-header h1 {
     background-color: goldenrod;
     color: whitesmoke;
     padding-top: 10px;
@@ -89,18 +119,41 @@ a button{
     padding-left: 10px;
 }
 
-.forms form .send-button{
+.submit-order-forms form .send-button {
     background-color: goldenrod;
     color: whitesmoke;
+    border-style: solid;
+    border-width: 3px;
+    border-color: goldenrod;
 }
 
-.h2-title{
+
+.submit-order-forms {
+    border-style: solid;
+    border-width: 3px;
+    border-color: goldenrod;
+}
+
+.order-go-back {
+    border-style: solid;
+    border-width: 3px;
+    border-color: goldenrod;
+    margin-bottom: 20px;
+}
+
+.submit-order-forms .h2-title {
     color: goldenrod;
 }
 
 /* style for login page */
 
-.login-header h1{
+.login-page-content {
+    border-style: solid;
+    border-width: 3px;
+    border-color: goldenrod;
+}
+
+.login-header h1 {
     background-color: goldenrod;
     color: whitesmoke;
     padding-top: 10px;
@@ -109,29 +162,54 @@ a button{
     padding-left: 10px;
 }
 
-.h2-login{
+.h2-login {
     color: goldenrod;
 }
 
-.login-form button{
+.login-form button {
     background-color: goldenrod;
     color: whitesmoke;
+}
+
+.login-go-back {
+    border-style: solid;
+    border-width: 3px;
+    border-color: goldenrod;
+    margin-bottom: 20px;
+}
+
+.login-submit-button {
+    border-style: solid;
+    border-width: 3px;
+    border-color: goldenrod;
+    margin-bottom: 20px;
 }
 
 /* style for html description page */
 
-.html-header h1{
+.html-header h1 {
     background-color: goldenrod;
     color: whitesmoke;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-right: 10px;
     padding-left: 10px;
+}
+
+.html-content {
+    border-style: solid;
+    border-width: 3px;
+    border-color: goldenrod;
+}
+
+.html-content .html-go-back{
+    border: none;
+    margin-bottom: 20px;
 }
 
 /* style for flutter description page */
 
-.flutter-header h1{
+.flutter-header h1 {
     background-color: goldenrod;
     color: whitesmoke;
     padding-top: 10px;
@@ -140,13 +218,35 @@ a button{
     padding-left: 10px;
 }
 
+.flutter-content {
+    border-style: solid;
+    border-width: 3px;
+    border-color: goldenrod;
+}
+
+.flutter-content .flutter-go-back {
+    border: none;
+    margin-bottom: 20px;
+}
+
 /* style for csharp description page */
 
-.csharp-header h1{
+.csharp-header h1 {
     background-color: goldenrod;
     color: whitesmoke;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-right: 10px;
     padding-left: 10px;
+}
+
+.csharp-content {
+    border-style: solid;
+    border-width: 3px;
+    border-color: goldenrod;
+}
+
+.csharp-content .csharp-go-back {
+    border: none;
+    margin-bottom: 20px;
 }
