@@ -156,10 +156,7 @@ a button {
 .login-header h1 {
     background-color: goldenrod;
     color: whitesmoke;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-right: 10px;
-    padding-left: 10px;
+    padding: 10px;
 }
 
 .h2-login {
@@ -172,16 +169,12 @@ a button {
 }
 
 .login-go-back {
-    border-style: solid;
-    border-width: 3px;
-    border-color: goldenrod;
+    border: 3px solid goldenrod;
     margin-bottom: 20px;
 }
 
 .login-submit-button {
-    border-style: solid;
-    border-width: 3px;
-    border-color: goldenrod;
+    border: 3px solid goldenrod;
     margin-bottom: 20px;
 }
 
@@ -190,16 +183,11 @@ a button {
 .html-header h1 {
     background-color: goldenrod;
     color: whitesmoke;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-right: 10px;
-    padding-left: 10px;
+    padding: 10px;
 }
 
 .html-content {
-    border-style: solid;
-    border-width: 3px;
-    border-color: goldenrod;
+    border: 3px solid goldenrod;
 }
 
 .html-content .html-go-back{
@@ -212,16 +200,11 @@ a button {
 .flutter-header h1 {
     background-color: goldenrod;
     color: whitesmoke;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-right: 10px;
-    padding-left: 10px;
+    padding: 10px;
 }
 
 .flutter-content {
-    border-style: solid;
-    border-width: 3px;
-    border-color: goldenrod;
+    border: 3px solid goldenrod;
 }
 
 .flutter-content .flutter-go-back {
@@ -234,16 +217,11 @@ a button {
 .csharp-header h1 {
     background-color: goldenrod;
     color: whitesmoke;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-right: 10px;
-    padding-left: 10px;
+    padding: 10px;
 }
 
 .csharp-content {
-    border-style: solid;
-    border-width: 3px;
-    border-color: goldenrod;
+    border: 3px solid goldenrod;
 }
 
 .csharp-content .csharp-go-back {
