@@ -33,6 +33,10 @@ header nav {
 
 #header #headertext{
     background-color: goldenrod;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
 }
 
 #header .headertexttitle{
@@ -55,6 +59,10 @@ header nav ul li {
 .aboutmeheader .h1title{
     background-color: goldenrod;
     color: whitesmoke;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
 }
 
 p strong {
@@ -75,6 +83,10 @@ a button{
 #order-header h1{
     background-color: goldenrod;
     color: whitesmoke;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
 }
 
 .forms form .send-button{
@@ -91,6 +103,10 @@ a button{
 .login-header h1{
     background-color: goldenrod;
     color: whitesmoke;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
 }
 
 .h2-login{
@@ -107,6 +123,10 @@ a button{
 .html-header h1{
     background-color: goldenrod;
     color: whitesmoke;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
 }
 
 /* style for flutter description page */
@@ -114,6 +134,10 @@ a button{
 .flutter-header h1{
     background-color: goldenrod;
     color: whitesmoke;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
 }
 
 /* style for csharp description page */
@@ -121,4 +145,8 @@ a button{
 .csharp-header h1{
     background-color: goldenrod;
     color: whitesmoke;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
 }
