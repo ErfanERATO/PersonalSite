@@ -17,14 +17,22 @@ p {
 
 }
 
+.all-body{
+    background-image: url(./images/dark.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 
 /* style for home page */
 header nav {
+    border-bottom: 3px solid whitesmoke;
     font-weight: bold;
-    border-style: solid;
-    border-width: 3px;
-    border-color: rgb(67, 67, 67);
     margin-bottom: 20px;
+}
+
+#footer .footerdescription {
+    color: whitesmoke;
 }
 
 #footer .footerdescription .strongboldnumber {
@@ -52,7 +60,7 @@ header nav ul li {
 }
 
 .home-page-content .olcontent li {
-    color: goldenrod;
+    color: whitesmoke;
 }
 
 .h3-title {
@@ -60,9 +68,7 @@ header nav ul li {
 }
 
 #footer {
-    border-style: solid;
-    border-width: 3px;
-    border-color: rgb(67, 67, 67);
+    border-top: 3px solid whitesmoke;
 }
 
 .home-page-content {
@@ -73,6 +79,10 @@ header nav ul li {
 }
 
 /* style for about me page */
+.about-me-content-part .about-me-description{
+    color: whitesmoke;
+}
+
 .aboutmeheader .h1title {
     background-color: goldenrod;
     color: whitesmoke;
@@ -110,6 +120,10 @@ a button {
 }
 
 /* style fotr submit order page */
+.submit-order-forms .submit-order-form-content{
+    color: whitesmoke;
+}
+
 #order-header h1 {
     background-color: goldenrod;
     color: whitesmoke;
@@ -153,6 +167,10 @@ a button {
     border-color: goldenrod;
 }
 
+.login-page-content .login-form{
+    color: whitesmoke;
+}
+
 .login-header h1 {
     background-color: goldenrod;
     color: whitesmoke;
@@ -186,6 +204,10 @@ a button {
     padding: 10px;
 }
 
+.html-content .html-content-text{
+    color: whitesmoke;
+}
+
 .html-content {
     border: 3px solid goldenrod;
 }
@@ -203,6 +225,10 @@ a button {
     padding: 10px;
 }
 
+.flutter-content .flutter-content-text{
+    color: whitesmoke;
+}
+
 .flutter-content {
     border: 3px solid goldenrod;
 }
@@ -218,6 +244,10 @@ a button {
     background-color: goldenrod;
     color: whitesmoke;
     padding: 10px;
+}
+
+.csharp-content .csharp-content-text{
+    color: whitesmoke;
 }
 
 .csharp-content {
