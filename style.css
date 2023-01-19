@@ -17,7 +17,7 @@ p {
 
 }
 
-.all-body{
+.all-body {
     background-image: url(./images/dark.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -49,7 +49,8 @@ header nav {
     padding-bottom: 10px;
     padding-right: 10px;
     padding-left: 10px;
-    background: linear-gradient(236deg,goldenrod, gold);
+    background: linear-gradient(236deg, rgba(218, 165, 32, 0.5), rgba(251, 193, 46, 0.5)), url(./images/Pattern-PNG.png);
+    background-size: cover;
 }
 
 #header .headertexttitle {
@@ -80,7 +81,7 @@ header nav ul li {
 }
 
 /* style for about me page */
-.about-me-content-part .about-me-description{
+.about-me-content-part .about-me-description {
     color: whitesmoke;
 }
 
@@ -91,7 +92,8 @@ header nav ul li {
     padding-bottom: 10px;
     padding-right: 10px;
     padding-left: 10px;
-    background: linear-gradient(236deg,goldenrod, gold);
+    background: linear-gradient(236deg, rgba(218, 165, 32, 0.5), rgba(251, 193, 46, 0.5)), url(./images/Pattern-PNG.png);
+    background-size: cover;
 }
 
 p strong {
@@ -122,7 +124,7 @@ a button {
 }
 
 /* style fotr submit order page */
-.submit-order-forms .submit-order-form-content{
+.submit-order-forms .submit-order-form-content {
     color: whitesmoke;
 }
 
@@ -133,7 +135,8 @@ a button {
     padding-bottom: 10px;
     padding-right: 10px;
     padding-left: 10px;
-    background: linear-gradient(236deg,goldenrod, gold);
+    background: linear-gradient(236deg, rgba(218, 165, 32, 0.5), rgba(251, 193, 46, 0.5)), url(./images/Pattern-PNG.png);
+    background-size: cover;
 }
 
 .submit-order-forms form .send-button {
@@ -170,7 +173,7 @@ a button {
     border-color: goldenrod;
 }
 
-.login-page-content .login-form{
+.login-page-content .login-form {
     color: whitesmoke;
 }
 
@@ -178,6 +181,8 @@ a button {
     background-color: goldenrod;
     color: whitesmoke;
     padding: 10px;
+    background: linear-gradient(236deg, rgba(218, 165, 32, 0.5), rgba(251, 193, 46, 0.5)), url(./images/Pattern-PNG.png);
+    background-size: cover;
 }
 
 .h2-login {
@@ -205,10 +210,11 @@ a button {
     background-color: goldenrod;
     color: whitesmoke;
     padding: 10px;
-    background: linear-gradient(236deg,goldenrod, gold);
+    background: linear-gradient(236deg, rgba(218, 165, 32, 0.5), rgba(251, 193, 46, 0.5)), url(./images/Pattern-PNG.png);
+    background-size: cover;
 }
 
-.html-content .html-content-text{
+.html-content .html-content-text {
     color: whitesmoke;
 }
 
@@ -216,7 +222,7 @@ a button {
     border: 3px solid goldenrod;
 }
 
-.html-content .html-go-back{
+.html-content .html-go-back {
     border: none;
     margin-bottom: 20px;
 }
@@ -227,10 +233,11 @@ a button {
     background-color: goldenrod;
     color: whitesmoke;
     padding: 10px;
-    background: linear-gradient(236deg,goldenrod, gold);
+    background: linear-gradient(236deg, rgba(218, 165, 32, 0.5), rgba(251, 193, 46, 0.5)), url(./images/Pattern-PNG.png);
+    background-size: cover;
 }
 
-.flutter-content .flutter-content-text{
+.flutter-content .flutter-content-text {
     color: whitesmoke;
 }
 
@@ -246,13 +253,14 @@ a button {
 /* style for csharp description page */
 
 .csharp-header h1 {
-    background-color: goldenrod;
+    background-color: rgb(218, 165, 32);
     color: whitesmoke;
     padding: 10px;
-    background: linear-gradient(236deg,goldenrod, gold);
+    background: linear-gradient(236deg, rgba(218, 165, 32, 0.5), rgba(251, 193, 46, 0.5)), url(./images/Pattern-PNG.png);
+    background-size: cover;
 }
 
-.csharp-content .csharp-content-text{
+.csharp-content .csharp-content-text {
     color: whitesmoke;
 }
 
