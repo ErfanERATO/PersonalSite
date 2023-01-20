@@ -1,4 +1,4 @@
-body {
+/* body {
     font-size: 20px;
     text-align: center;
 }
@@ -15,7 +15,7 @@ img {
 p {
     padding: 30px;
 
-}
+} */
 
 .all-body {
     background-image: url(./images/dark.jpg);
@@ -29,6 +29,7 @@ header nav {
     border-bottom: 3px solid whitesmoke;
     font-weight: bold;
     margin-bottom: 20px;
+
 }
 
 #footer .footerdescription {
@@ -55,11 +56,21 @@ header nav {
 
 #header .headertexttitle {
     color: whitesmoke;
+    display: flex;
+    justify-content: center
 }
 
 header nav ul li {
     color: goldenrod;
+
 }
+
+header nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 
 .home-page-content .olcontent li {
     color: whitesmoke;
@@ -67,10 +78,14 @@ header nav ul li {
 
 .h3-title {
     color: goldenrod;
+    display: flex;
+    justify-content: center;
 }
 
 #footer {
     border-top: 3px solid whitesmoke;
+    display: flex;
+    justify-content: center;
 }
 
 .home-page-content {
@@ -80,9 +95,29 @@ header nav ul li {
     margin-bottom: 20px;
 }
 
+.home-page-content .olcontent {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.home-page-content .home-page-content-image {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
 /* style for about me page */
 .about-me-content-part .about-me-description {
     color: whitesmoke;
+    display: flex;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .aboutmeheader .h1title {
@@ -94,6 +129,8 @@ header nav ul li {
     padding-left: 10px;
     background: linear-gradient(236deg, rgba(218, 165, 32, 0.5), rgba(251, 193, 46, 0.5)), url(./images/Pattern-PNG.png);
     background-size: cover;
+    display: flex;
+    justify-content: center
 }
 
 p strong {
@@ -123,6 +160,16 @@ a button {
     margin-bottom: 10px;
 }
 
+.go-back-button-flex-container {
+    display: flex;
+    justify-content: center;
+}
+
+.about-me-content-part .aboutmetitle {
+    display: flex;
+    justify-content: center
+}
+
 /* style fotr submit order page */
 .submit-order-forms .submit-order-form-content {
     color: whitesmoke;
@@ -137,6 +184,8 @@ a button {
     padding-left: 10px;
     background: linear-gradient(236deg, rgba(218, 165, 32, 0.5), rgba(251, 193, 46, 0.5)), url(./images/Pattern-PNG.png);
     background-size: cover;
+    display: flex;
+    justify-content: center;
 }
 
 .submit-order-forms form .send-button {
@@ -163,6 +212,15 @@ a button {
 
 .submit-order-forms .h2-title {
     color: goldenrod;
+    display: flex;
+    justify-content: center
+}
+
+.submit-order-form-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 /* style for login page */
@@ -183,10 +241,14 @@ a button {
     padding: 10px;
     background: linear-gradient(236deg, rgba(218, 165, 32, 0.5), rgba(251, 193, 46, 0.5)), url(./images/Pattern-PNG.png);
     background-size: cover;
+    display: flex;
+    justify-content: center;
 }
 
 .h2-login {
     color: goldenrod;
+    display: flex;
+    justify-content: center;
 }
 
 .login-form button {
@@ -204,6 +266,13 @@ a button {
     margin-bottom: 20px;
 }
 
+.login-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
 /* style for html description page */
 
 .html-header h1 {
@@ -212,6 +281,8 @@ a button {
     padding: 10px;
     background: linear-gradient(236deg, rgba(218, 165, 32, 0.5), rgba(251, 193, 46, 0.5)), url(./images/Pattern-PNG.png);
     background-size: cover;
+    display: flex;
+    justify-content: center;
 }
 
 .html-content .html-content-text {
@@ -220,6 +291,10 @@ a button {
 
 .html-content {
     border: 3px solid goldenrod;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .html-content .html-go-back {
@@ -235,6 +310,8 @@ a button {
     padding: 10px;
     background: linear-gradient(236deg, rgba(218, 165, 32, 0.5), rgba(251, 193, 46, 0.5)), url(./images/Pattern-PNG.png);
     background-size: cover;
+    display: flex;
+    justify-content: center;
 }
 
 .flutter-content .flutter-content-text {
@@ -243,6 +320,10 @@ a button {
 
 .flutter-content {
     border: 3px solid goldenrod;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .flutter-content .flutter-go-back {
@@ -258,6 +339,8 @@ a button {
     padding: 10px;
     background: linear-gradient(236deg, rgba(218, 165, 32, 0.5), rgba(251, 193, 46, 0.5)), url(./images/Pattern-PNG.png);
     background-size: cover;
+    display: flex;
+    justify-content: center;
 }
 
 .csharp-content .csharp-content-text {
@@ -266,6 +349,10 @@ a button {
 
 .csharp-content {
     border: 3px solid goldenrod;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .csharp-content .csharp-go-back {
