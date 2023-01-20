@@ -219,11 +219,22 @@ a button {
 .submit-order-form-content {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: stretch;
+    justify-content: center;
+}
+
+.form-flex-container {
+    display: flex;
     justify-content: center;
 }
 
 /* style for login page */
+
+
+.form-flex-login-container{
+    display: flex;
+    justify-content: center;
+}
 
 .login-page-content {
     border-style: solid;
@@ -269,7 +280,7 @@ a button {
 .login-form{
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: stretch;
     justify-content: center;
 }
 
